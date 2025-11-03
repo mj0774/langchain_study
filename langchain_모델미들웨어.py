@@ -27,7 +27,7 @@ load_dotenv()
 basic_model = ChatOpenAI(model="gpt-4o-mini", api_key=os.getenv("OPENAI_API_KEY"))
 advanced_model = ChatOpenAI(model="gpt-4o", api_key=os.getenv("OPENAI_API_KEY"))
 
-# 라이프사이클
+# 라이프사이클 - 모델 호출 미들웨어
 # 1. 에이전트가 체인/노드 실행 중 LLM 호출 직전
 # 2. 에이전트가 LLM을 호출할 때 ModelRequest 객체를 받음
 # 3. 내부에서 필요하면 요청을 수정한 뒤 핸들러(handler)를 불러 실제 모델을 호출

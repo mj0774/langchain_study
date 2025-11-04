@@ -1,6 +1,7 @@
 # 날짜: 2025-11-03
 # 작성자: 황민준
-# 목적: LangChain create_agent 연습(툴 호출 → Observation → 최종응답 흐름 확인)
+# 목적: LangChain create_agent 확인(툴 호출 → Observation → 최종응답 흐름 확인)
+# 설명: 
 
 import os
 from dotenv import load_dotenv

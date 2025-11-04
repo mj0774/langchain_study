@@ -1,6 +1,6 @@
 # 날짜: 2025-11-03
 # 작성자: 황민준
-# 목적: LangChain 미들웨어를 통해 동적 모델 선택
+# 목적: LangChain 모델 호출 미들웨어 -> 동적 모델 선택 예제
 
 import os
 from dotenv import load_dotenv

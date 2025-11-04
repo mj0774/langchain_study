@@ -34,6 +34,8 @@ result = agent.invoke(
                    'content': '다음에서 연락처 정보 추출해라: 홍길동, test@example.com, 010-1234-5678'}]}
 )
 
+print(result["structured_response"])
+
 # 1) JSON 문자열로 바로 출력 (Pydantic v2)
 print(result["structured_response"].model_dump_json(ensure_ascii=False, indent=2))
 # ensure_ascii=False: 한글/유니코드를 이스케이프하지 말고 그대로 출력

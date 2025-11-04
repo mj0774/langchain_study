@@ -110,3 +110,6 @@ print(result.get("messages")[-1].content)
 ## 데코레이터 방식: "이번 호출만 파라미터 조정"같은 국지적 변경이 있는 경우
 
 # AgentMiddleware도 middleware=[aw1(), aw2()]처럼 여러 개 사용할 수 있다. -> 순서 중요
+
+# 미들웨어에 훅을 사용하지 않고 상태 필드만 추가한다면 
+# create_agent에 middleware=[my_middleware()] 대신 state_schema=my_state만 지정해도 된다.

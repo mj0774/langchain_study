@@ -1,6 +1,8 @@
 # 날짜: 2025-11-04
 # 작성자: 황민준
-# 목적: 메시지 상태를 통해 기록을 자동으로 관리한다. 
+# 목적: 
+## 에이전트의 메시지 상태(AgentState)를 통해 단기 메모리 관리
+## LLM 호출 전후의 흐름(모델/툴 실행 등)을 AgentMiddleware 훅으로 제어, 감시하는 구조 설계
 
 import os, json
 from dotenv import load_dotenv

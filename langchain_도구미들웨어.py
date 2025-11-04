@@ -1,6 +1,6 @@
 # 날짜: 2025-11-03
 # 작성자: 황민준
-# 목적: LangChain 도구 정의 및 도구 호출 미들웨어 -> 오류 처리 예제
+# 목적: LangChain 도구 정의 및 도구 호출 wrap_tool_call 미들웨어 사용 -> 오류 처리 예제
 
 import os
 from dotenv import load_dotenv

@@ -1,4 +1,4 @@
-# LangChain & LangGraph Middleware Practice
+# LangChain & LangGraph Study
 
 
 ## 프로젝트 개요

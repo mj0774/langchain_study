@@ -17,4 +17,4 @@
 
 ## 참고 자료
 - LangChain docs
-https://docs.langchain.com/oss/python/langchain/overview
+  - https://docs.langchain.com/oss/python/langchain/overview

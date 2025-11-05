@@ -15,3 +15,6 @@
 
 ## 주요 학습 내용
 
+## 참고 자료
+- LangChain docs
+https://docs.langchain.com/oss/python/langchain/overview

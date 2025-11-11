@@ -5,3 +5,4 @@ langgraph==1.0.2
 langsmith==0.4.40
 langchain-mcp-adapters==0.1.12
 mcp==1.21.0
+fastmcp==2.13.0.2
